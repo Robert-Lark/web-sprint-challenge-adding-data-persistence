@@ -17,7 +17,7 @@ exports.seed = function (knex) {
 				},
 				{
 					id: 3,
-					projectName: "rcleanup",
+					projectName: "Cleanup",
 					description: "Cleanup mrs appleworth shed",
 				},
 			]);

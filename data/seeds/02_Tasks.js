@@ -7,21 +7,21 @@ exports.seed = function(knex) {
       return knex("tasks").insert([
 				{
 					id: 1,
-					description: "work hard all day",
+					taskDescription: "work hard all day",
 					notes: "don't work too hard",
 					projectId: 1,
 					completed: false,
 				},
 				{
 					id: 2,
-					description: "Do a good Job",
+					taskDescription: "Do a good Job",
 					notes: "Mrs Appleworth is a tough nut",
 					projectId: 2,
 					completed: false,
 				},
 				{
 					id: 3,
-					description: "Payday's a coming",
+					taskDescription: "Payday's a coming",
 					notes: "dont spend it all in one go",
 					projectId: 1,
 					completed: true,
